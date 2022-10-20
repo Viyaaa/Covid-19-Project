@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Covid-19</title>
+  </head>
+  <body>
+    <!-- Image and text -->
+    <nav class="navbar">
+      <a class="navbar-brand mx-2 d-flex" href="#">
+        <i class="fa-solid fa-mask-face fa-xl"></i>
+        <span class="mx-2 nav-text">Don't forget to wear mask!</span>
+      </a>
+    </nav>
+    <header>
+      <app-bar></app-bar>
+    </header>
+    <main>
+      <section>
+        <case-update-date></case-update-date>
+      </section>
+      <section id="countryCase">
+        <country-case></country-case>
+      </section>
+      <section id="globalCase">
+        <global-case></global-case>
+      </section>
+    </main>
+    <footer>
+      <app-footer></app-footer>
+    </footer>
+  </body>
+</html>
